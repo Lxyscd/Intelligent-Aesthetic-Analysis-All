@@ -1,0 +1,51 @@
+# IDE
+.idea/
+.vscode/
+.cursor/
+.catpaw/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+backend/target/
+dist/
+build/
+
+# Dependencies
+node_modules/
+backend/.gradle/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.mv.db
+*.trace.db
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Compiled files
+*.class
+*.jar
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
